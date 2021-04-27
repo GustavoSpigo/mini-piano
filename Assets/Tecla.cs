@@ -11,10 +11,6 @@ public class Tecla : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if (Audio.isPlaying)
-        {
-            Audio.Stop();
-        }
         Audio.Play();
     }    
 }

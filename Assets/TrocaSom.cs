@@ -14,10 +14,10 @@ public class TrocaSom : MonoBehaviour
             CadaTecla.clip = somASerTocado;
         }
 
-        foreach (GameObject CadaTecla in GameObject.FindGameObjectsWithTag("Teclas"))
-        {
-            CadaTecla.GetComponent<AudioSource>().clip = somASerTocado;
-        }
+        //foreach (GameObject CadaTecla in GameObject.FindGameObjectsWithTag("Teclas"))
+        //{
+        //    CadaTecla.GetComponent<AudioSource>().clip = somASerTocado;
+        //}
 
         //for (int i = 0; i < teclas.Length; i++)
         //{
